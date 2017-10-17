@@ -1,2 +1,2 @@
 # caffe-model-zoo
-caffe pretrained models and prototxt
+caffe pretrained models, train_val.prototxt, deploy.prototxt solver.prototxt
