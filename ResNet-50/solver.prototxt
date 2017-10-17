@@ -1,0 +1,28 @@
+# the definition of neural network model
+net: "train_val.prototxt"
+# test_iter is related to batch_size in test layer, test_iter * batch_size = the number of test data
+test_iter: 512
+# carry out test once every 5 training iterations
+test_interval: 10
+# exclude test phase when test_initialization = false
+# test_initialization: false
+# display information once every 10 training iterations
+display: 1
+# 
+average_loss: 40
+# the initial learning rate
+base_lr: 0.001
+lr_policy: "poly"
+stepsize: 320000
+gamma: 0.96
+# The max number of iterations
+max_iter: 501
+power: 1.0
+momentum: 0.9
+# weight decay item, in case of overfitting
+weight_decay: 0.0002
+# save once every 50 training iterations
+snapshot: 10
+# save path
+snapshot_prefix: "resnet-50-cervix"
+solver_mode: GPU
