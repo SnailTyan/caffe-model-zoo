@@ -56,7 +56,7 @@ layer {
   bottom: "conv_conv1"
   top: "conv_conv1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -109,7 +109,7 @@ layer {
   bottom: "conv_conv2red"
   top: "conv_conv2red"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -149,7 +149,7 @@ layer {
   bottom: "conv_conv2"
   top: "conv_conv2"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -202,7 +202,7 @@ layer {
   bottom: "conv_3a_1x1"
   top: "conv_3a_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -242,7 +242,7 @@ layer {
   bottom: "conv_3a_3x3_reduce"
   top: "conv_3a_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -282,7 +282,7 @@ layer {
   bottom: "conv_3a_3x3"
   top: "conv_3a_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -322,7 +322,7 @@ layer {
   bottom: "conv_3a_double_3x3_reduce"
   top: "conv_3a_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -362,7 +362,7 @@ layer {
   bottom: "conv_3a_double_3x3_0"
   top: "conv_3a_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -402,7 +402,7 @@ layer {
   bottom: "conv_3a_double_3x3_1"
   top: "conv_3a_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -455,7 +455,7 @@ layer {
   bottom: "conv_3a_proj"
   top: "conv_3a_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -505,7 +505,7 @@ layer {
   bottom: "conv_3b_1x1"
   top: "conv_3b_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -545,7 +545,7 @@ layer {
   bottom: "conv_3b_3x3_reduce"
   top: "conv_3b_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -585,7 +585,7 @@ layer {
   bottom: "conv_3b_3x3"
   top: "conv_3b_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -625,7 +625,7 @@ layer {
   bottom: "conv_3b_double_3x3_reduce"
   top: "conv_3b_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -665,7 +665,7 @@ layer {
   bottom: "conv_3b_double_3x3_0"
   top: "conv_3b_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -705,7 +705,7 @@ layer {
   bottom: "conv_3b_double_3x3_1"
   top: "conv_3b_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -758,7 +758,7 @@ layer {
   bottom: "conv_3b_proj"
   top: "conv_3b_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -808,7 +808,7 @@ layer {
   bottom: "conv_3c_3x3_reduce"
   top: "conv_3c_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -848,7 +848,7 @@ layer {
   bottom: "conv_3c_3x3"
   top: "conv_3c_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -888,7 +888,7 @@ layer {
   bottom: "conv_3c_double_3x3_reduce"
   top: "conv_3c_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -928,7 +928,7 @@ layer {
   bottom: "conv_3c_double_3x3_0"
   top: "conv_3c_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -968,7 +968,7 @@ layer {
   bottom: "conv_3c_double_3x3_1"
   top: "conv_3c_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1030,7 +1030,7 @@ layer {
   bottom: "conv_4a_1x1"
   top: "conv_4a_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1070,7 +1070,7 @@ layer {
   bottom: "conv_4a_3x3_reduce"
   top: "conv_4a_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1110,7 +1110,7 @@ layer {
   bottom: "conv_4a_3x3"
   top: "conv_4a_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1150,7 +1150,7 @@ layer {
   bottom: "conv_4a_double_3x3_reduce"
   top: "conv_4a_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1190,7 +1190,7 @@ layer {
   bottom: "conv_4a_double_3x3_0"
   top: "conv_4a_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1230,7 +1230,7 @@ layer {
   bottom: "conv_4a_double_3x3_1"
   top: "conv_4a_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1283,7 +1283,7 @@ layer {
   bottom: "conv_4a_proj"
   top: "conv_4a_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1333,7 +1333,7 @@ layer {
   bottom: "conv_4b_1x1"
   top: "conv_4b_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1373,7 +1373,7 @@ layer {
   bottom: "conv_4b_3x3_reduce"
   top: "conv_4b_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1413,7 +1413,7 @@ layer {
   bottom: "conv_4b_3x3"
   top: "conv_4b_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1453,7 +1453,7 @@ layer {
   bottom: "conv_4b_double_3x3_reduce"
   top: "conv_4b_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1493,7 +1493,7 @@ layer {
   bottom: "conv_4b_double_3x3_0"
   top: "conv_4b_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1533,7 +1533,7 @@ layer {
   bottom: "conv_4b_double_3x3_1"
   top: "conv_4b_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1586,7 +1586,7 @@ layer {
   bottom: "conv_4b_proj"
   top: "conv_4b_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1636,7 +1636,7 @@ layer {
   bottom: "conv_4c_1x1"
   top: "conv_4c_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1676,7 +1676,7 @@ layer {
   bottom: "conv_4c_3x3_reduce"
   top: "conv_4c_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1716,7 +1716,7 @@ layer {
   bottom: "conv_4c_3x3"
   top: "conv_4c_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1756,7 +1756,7 @@ layer {
   bottom: "conv_4c_double_3x3_reduce"
   top: "conv_4c_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1796,7 +1796,7 @@ layer {
   bottom: "conv_4c_double_3x3_0"
   top: "conv_4c_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1836,7 +1836,7 @@ layer {
   bottom: "conv_4c_double_3x3_1"
   top: "conv_4c_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1889,7 +1889,7 @@ layer {
   bottom: "conv_4c_proj"
   top: "conv_4c_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1939,7 +1939,7 @@ layer {
   bottom: "conv_4d_1x1"
   top: "conv_4d_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -1979,7 +1979,7 @@ layer {
   bottom: "conv_4d_3x3_reduce"
   top: "conv_4d_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2019,7 +2019,7 @@ layer {
   bottom: "conv_4d_3x3"
   top: "conv_4d_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2059,7 +2059,7 @@ layer {
   bottom: "conv_4d_double_3x3_reduce"
   top: "conv_4d_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2099,7 +2099,7 @@ layer {
   bottom: "conv_4d_double_3x3_0"
   top: "conv_4d_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2139,7 +2139,7 @@ layer {
   bottom: "conv_4d_double_3x3_1"
   top: "conv_4d_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2192,7 +2192,7 @@ layer {
   bottom: "conv_4d_proj"
   top: "conv_4d_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2242,7 +2242,7 @@ layer {
   bottom: "conv_4e_3x3_reduce"
   top: "conv_4e_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2282,7 +2282,7 @@ layer {
   bottom: "conv_4e_3x3"
   top: "conv_4e_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2322,7 +2322,7 @@ layer {
   bottom: "conv_4e_double_3x3_reduce"
   top: "conv_4e_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2362,7 +2362,7 @@ layer {
   bottom: "conv_4e_double_3x3_0"
   top: "conv_4e_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2402,7 +2402,7 @@ layer {
   bottom: "conv_4e_double_3x3_1"
   top: "conv_4e_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2464,7 +2464,7 @@ layer {
   bottom: "conv_5a_1x1"
   top: "conv_5a_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2504,7 +2504,7 @@ layer {
   bottom: "conv_5a_3x3_reduce"
   top: "conv_5a_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2544,7 +2544,7 @@ layer {
   bottom: "conv_5a_3x3"
   top: "conv_5a_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2584,7 +2584,7 @@ layer {
   bottom: "conv_5a_double_3x3_reduce"
   top: "conv_5a_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2624,7 +2624,7 @@ layer {
   bottom: "conv_5a_double_3x3_0"
   top: "conv_5a_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2664,7 +2664,7 @@ layer {
   bottom: "conv_5a_double_3x3_1"
   top: "conv_5a_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2717,7 +2717,7 @@ layer {
   bottom: "conv_5a_proj"
   top: "conv_5a_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2767,7 +2767,7 @@ layer {
   bottom: "conv_5b_1x1"
   top: "conv_5b_1x1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2807,7 +2807,7 @@ layer {
   bottom: "conv_5b_3x3_reduce"
   top: "conv_5b_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2847,7 +2847,7 @@ layer {
   bottom: "conv_5b_3x3"
   top: "conv_5b_3x3"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2887,7 +2887,7 @@ layer {
   bottom: "conv_5b_double_3x3_reduce"
   top: "conv_5b_double_3x3_reduce"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2927,7 +2927,7 @@ layer {
   bottom: "conv_5b_double_3x3_0"
   top: "conv_5b_double_3x3_0"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -2967,7 +2967,7 @@ layer {
   bottom: "conv_5b_double_3x3_1"
   top: "conv_5b_double_3x3_1"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
@@ -3020,7 +3020,7 @@ layer {
   bottom: "conv_5b_proj"
   top: "conv_5b_proj"
   batch_norm_param {
-    use_global_stats: true
+    use_global_stats: false
   }
 }
 
